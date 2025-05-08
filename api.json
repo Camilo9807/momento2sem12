@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "API Tareas",
+    "description": "Colección de peticiones para la API de tareas"
+  },
+  "item": [
+    {
+      "name": "Obtener todas las tareas",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/api/tareas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "tareas"
+          ]
+        },
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
