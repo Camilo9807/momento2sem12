@@ -27,10 +27,10 @@ public class TareaService {
 
     public Tarea updateTarea(Long id, Tarea tarea) {
         if (tareaRepository.existsById(id)) {
-            tarea.setId(id); // Aseguramos que la ID sea la correcta para la actualización
+            tarea.setId(id); 
             return tareaRepository.save(tarea);
         }
-        return null; // O podrías lanzar una excepción indicando que la tarea no existe
+        return null; 
     }
 
     public void deleteTarea(Long id) {

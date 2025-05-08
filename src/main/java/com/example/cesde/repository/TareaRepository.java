@@ -7,5 +7,5 @@ import com.example.cesde.entity.Tarea;
 
 @Repository
 public interface TareaRepository extends JpaRepository<Tarea, Long> {
-    // Aquí puedes definir métodos personalizados para consultas más complejas si es necesario
+
 }
